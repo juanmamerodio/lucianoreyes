@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 720" role="img" aria-label="Ilustración: objetos que representan a la escuela — matafuego, sierra de banco, computadora con código, matraz de laboratorio, engranaje con rayo y casco de seguridad">
+  <defs>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1.4" fill="#161A1F" opacity="0.22"/>
+    </pattern>
+  </defs>
+
+  <rect width="1440" height="720" fill="#F4F1EC"/>
+  <rect width="1440" height="720" fill="url(#dots)" opacity="0.5"/>
+
+  <!-- Marcas de registro (estilo editorial) -->
+  <g stroke="#8A8F97" stroke-width="1.5" opacity="0.6">
+    <path d="M28 28 L28 52 M18 40 L42 40"/>
+    <path d="M1412 28 L1412 52 M1398 40 L1422 40"/>
+    <path d="M28 668 L28 692 M18 680 L42 680"/>
+    <path d="M1412 668 L1412 692 M1398 680 L1422 680"/>
+  </g>
+
+  <!-- Encabezados -->
+  <text x="60" y="80" font-family="monospace" font-size="20" letter-spacing="2" fill="#161A1F">AUDITORÍA ESTUDIANTIL · 2026</text>
+  <text x="1380" y="80" text-anchor="end" font-family="monospace" font-size="19" letter-spacing="1.5" fill="#161A1F">E.E.S.T N.º 1 — LUCIANO REYES</text>
+
+  <!-- Leyenda de especialidades -->
+  <g font-family="monospace" font-size="14">
+    <circle cx="64" cy="112" r="7" fill="#1D4DFF"/>
+    <text x="80" y="116" fill="#161A1F">PROGRAMACIÓN</text>
+    <circle cx="228" cy="112" r="7" fill="#00A651"/>
+    <text x="244" y="116" fill="#161A1F">QUÍMICA</text>
+    <circle cx="322" cy="112" r="7" fill="#FF4D00"/>
+    <text x="338" y="116" fill="#161A1F">ELECTRÓNICA</text>
+    <circle cx="456" cy="112" r="7" fill="#FFC400"/>
+    <text x="472" y="116" fill="#161A1F">MECÁNICA</text>
+  </g>
+
+  <!-- Piso -->
+  <rect x="0" y="606" width="1440" height="5" fill="#161A1F"/>
+
+  <!-- ============ SOMBRAS ============ -->
+  <g fill="#161A1F" opacity="0.16">
+    <ellipse cx="150" cy="610" rx="70" ry="10"/>
+    <ellipse cx="430" cy="610" rx="130" ry="11"/>
+    <ellipse cx="700" cy="610" rx="118" ry="10"/>
+    <ellipse cx="930" cy="610" rx="80" ry="9"/>
+    <ellipse cx="1150" cy="610" rx="92" ry="10"/>
+    <ellipse cx="1330" cy="610" rx="88" ry="9"/>
+  </g>
+
+  <!-- ============ 1 · MATAFUEGO ============ -->
+  <g>
+    <rect x="110" y="360" width="80" height="240" rx="28" fill="#D9302A" stroke="#161A1F" stroke-width="3"/>
+    <rect x="120" y="330" width="60" height="44" rx="14" fill="#B0241F" stroke="#161A1F" stroke-width="2.5"/>
+    <rect x="142" y="304" width="20" height="28" rx="4" fill="#161A1F"/>
+    <rect x="164" y="310" width="8" height="16" rx="2" fill="#161A1F"/>
+    <path d="M152 350 C 188 356 202 390 196 440 L 186 474" fill="none" stroke="#161A1F" stroke-width="7" stroke-linecap="round"/>
+    <rect x="172" y="466" width="28" height="12" rx="4" fill="#8A8F97" stroke="#161A1F" stroke-width="2"/>
+    <rect x="122" y="442" width="56" height="84" rx="5" fill="#FFFDF8" stroke="#161A1F" stroke-width="2"/>
+    <g fill="#8A8F97">
+      <rect x="129" y="452" width="42" height="5" rx="1"/>
+      <rect x="129" y="462" width="42" height="5" rx="1"/>
+      <rect x="129" y="472" width="30" height="5" rx="1"/>
+      <rect x="129" y="482" width="42" height="5" rx="1"/>
+      <rect x="129" y="492" width="24" height="5" rx="1"/>
+    </g>
+    <rect x="129" y="506" width="42" height="12" rx="2" fill="#D9302A"/>
+    <rect x="118" y="592" width="64" height="10" rx="3" fill="#161A1F"/>
+  </g>
+
+  <!-- ============ 2 · SIERRA DE BANCO ============ -->
+  <g>
+    <rect x="330" y="556" width="200" height="16" rx="4" fill="#8A8F97" stroke="#161A1F" stroke-width="2.5"/>
+    <rect x="350" y="572" width="22" height="28" fill="#8A8F97" stroke="#161A1F" stroke-width="2"/>
+    <rect x="488" y="572" width="22" height="28" fill="#8A8F97" stroke="#161A1F" stroke-width="2"/>
+    <rect x="384" y="560" width="92" height="5" fill="#161A1F"/>
+    <circle cx="430" cy="468" r="94" fill="none" stroke="#161A1F" stroke-width="10" stroke-dasharray="8 10"/>
+    <circle cx="430" cy="468" r="86" fill="#C9CCD2" stroke="#161A1F" stroke-width="3"/>
+    <path d="M336 468 A 94 94 0 0 1 524 468" fill="none" stroke="#FF4D00" stroke-width="26"/>
+    <rect x="470" y="390" width="66" height="18" rx="9" fill="#161A1F"/>
+    <circle cx="430" cy="468" r="14" fill="#F4F1EC" stroke="#161A1F" stroke-width="3"/>
+  </g>
+
+  <!-- ============ 3 · COMPUTADORA ============ -->
+  <g>
+    <rect x="588" y="556" width="224" height="18" rx="5" fill="#161A1F"/>
+    <rect x="592" y="552" width="216" height="6" fill="#8A8F97"/>
+    <rect x="598" y="562" width="204" height="8" rx="3" fill="#C9CCD2"/>
+    <rect x="592" y="382" width="216" height="174" rx="8" fill="#161A1F"/>
+    <rect x="600" y="390" width="200" height="158" rx="5" fill="#232830"/>
+    <rect x="608" y="398" width="184" height="12" rx="3" fill="#2E3440"/>
+    <g>
+      <rect x="612" y="420" width="70" height="7" rx="1.5" fill="#3BCB7E"/>
+      <rect x="612" y="434" width="96" height="7" rx="1.5" fill="#1D4DFF"/>
+      <rect x="612" y="448" width="44" height="7" rx="1.5" fill="#FF7A45"/>
+      <rect x="636" y="462" width="80" height="7" rx="1.5" fill="#3BCB7E"/>
+      <rect x="612" y="476" width="118" height="7" rx="1.5" fill="#FFC400"/>
+      <rect x="612" y="490" width="56" height="7" rx="1.5" fill="#1D4DFF"/>
+      <rect x="636" y="504" width="88" height="7" rx="1.5" fill="#3BCB7E"/>
+      <rect x="612" y="518" width="38" height="7" rx="1.5" fill="#FF7A45"/>
+    </g>
+    <rect x="716" y="518" width="5" height="16" fill="#F4F1EC"/>
+  </g>
+
+  <!-- ============ 4 · MATRAZ DE LABORATORIO ============ -->
+  <g>
+    <circle cx="924" cy="322" r="6" fill="#C9CCD2" opacity="0.75"/>
+    <circle cx="914" cy="312" r="4" fill="#C9CCD2" opacity="0.6"/>
+    <rect x="918" y="344" width="24" height="24" rx="5" fill="#8A8F97" stroke="#161A1F" stroke-width="2.5"/>
+    <rect x="914" y="362" width="32" height="8" rx="2" fill="#E8EDF2" stroke="#161A1F" stroke-width="2"/>
+    <rect x="916" y="366" width="28" height="96" fill="#E8EDF2" stroke="#161A1F" stroke-width="2.5"/>
+    <rect x="856" y="462" width="148" height="144" rx="40" fill="#E8EDF2" stroke="#161A1F" stroke-width="3"/>
+    <rect x="860" y="478" width="14" height="96" rx="7" fill="#FFFFFF" opacity="0.2"/>
+    <line x1="872" y1="482" x2="872" y2="548" stroke="#8A8F97" stroke-width="2.5" stroke-dasharray="6 4"/>
+    <rect x="868" y="524" width="124" height="74" rx="24" fill="#3BCB7E"/>
+    <ellipse cx="930" cy="524" rx="64" ry="7" fill="#3BCB7E"/>
+    <circle cx="896" cy="556" r="7" fill="#F4F1EC" opacity="0.85"/>
+    <circle cx="926" cy="582" r="5" fill="#F4F1EC" opacity="0.85"/>
+    <circle cx="958" cy="548" r="6" fill="#F4F1EC" opacity="0.85"/>
+  </g>
+
+  <!-- ============ 5 · ENGRANAJE + RAYO ============ -->
+  <g>
+    <circle cx="1150" cy="478" r="90" fill="none" stroke="#1D4DFF" stroke-width="15" stroke-dasharray="11 9"/>
+    <circle cx="1150" cy="478" r="80" fill="#161A1F"/>
+    <g stroke="#8A8F97" stroke-width="6">
+      <line x1="1150" y1="478" x2="1222" y2="478"/>
+      <line x1="1150" y1="478" x2="1222" y2="478" transform="rotate(60 1150 478)"/>
+      <line x1="1150" y1="478" x2="1222" y2="478" transform="rotate(120 1150 478)"/>
+      <line x1="1150" y1="478" x2="1222" y2="478" transform="rotate(180 1150 478)"/>
+    </g>
+    <circle cx="1150" cy="478" r="28" fill="#F4F1EC" stroke="#161A1F" stroke-width="3"/>
+    <path d="M1150 458 L1139 476 L1155 480 L1141 502 L1157 506 Z" fill="#FFC400" stroke="#161A1F" stroke-width="1.5"/>
+  </g>
+
+  <!-- ============ 6 · CASCO DE SEGURIDAD (EPP) ============ -->
+  <g>
+    <path d="M1250 540 L1250 500 A 80 80 0 0 1 1410 500 L1410 540 Z" fill="#FFC400" stroke="#161A1F" stroke-width="3"/>
+    <rect x="1325" y="434" width="10" height="100" rx="3" fill="#FFC400" stroke="#161A1F" stroke-width="2.5"/>
+    <rect x="1278" y="450" width="16" height="6" rx="2" fill="#161A1F"/>
+    <rect x="1352" y="450" width="16" height="6" rx="2" fill="#161A1F"/>
+    <rect x="1406" y="506" width="30" height="16" rx="6" fill="#FFC400" stroke="#161A1F" stroke-width="2.5"/>
+    <rect x="1256" y="524" width="148" height="15" rx="5" fill="#8A8F97" stroke="#161A1F" stroke-width="2"/>
+  </g>
+
+  <!-- ============ ETIQUETAS ============ -->
+  <g font-family="monospace" font-size="15" letter-spacing="1.5" fill="#161A1F" text-anchor="middle">
+    <text x="150" y="662">SEGURIDAD</text>
+    <text x="430" y="662">TALLER</text>
+    <text x="700" y="662">PROGRAMACIÓN</text>
+    <text x="930" y="662">QUÍMICA</text>
+    <text x="1150" y="662">ELECTRO-MEC</text>
+    <text x="1330" y="662">EPP</text>
+  </g>
+</svg>

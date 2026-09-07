@@ -99,6 +99,23 @@ Siempre que se cite una norma en la página, mantener el tono: **norma → por q
 
 ## 5. Registro de cambios
 
+### 2026-09-07 — v0.2 · Auditoría y corrección responsive (móvil)
+- **Auditoría realizada:** el CSS tenía una única media query (900px) y las grillas usaban
+  `minmax` fijo que desbordaba en pantallas <340px.
+- **Correcciones aplicadas:**
+  - Todas las grillas pasaron a `minmax(min(Npx,100%),1fr)` → cero overflow horizontal en móviles angostos.
+  - Título del hero: los `<br>` forzados se reemplazaron por `<span>` que fluyen en móvil (≤640px).
+  - Jerarquía de breakpoints: 1100px / 900px / 720px / 640px / 400px + `prefers-reduced-motion` + `print`.
+  - Tabla de propuestas → se convierte en tarjetas apiladas en ≤720px (con labels por fila vía CSS).
+  - Inputs del formulario con `font-size:1rem` en móvil → evita el zoom automático de iOS.
+  - `.issue__row` con `min-width:0` y wrap → el título ya no empuja el toggle fuera de pantalla.
+  - Menú móvil: botón de cerrar (×), bloqueo de scroll del body al abrir, cierre con tecla Escape.
+  - Marquee: el `gap` se reemplazó por `margin-right` por item → loop `translateX(-50%)` sin salto.
+  - Paddings reducidos en móvil (normas, formulario, voces__cta, cifras__line, marco, ayudar).
+  - Botones del hero/voces/ayudar al 100% de ancho en móvil (targets táctiles grandes).
+  - `min-height` del hero con fallback `100vh` + mejora progresiva `100svh`.
+- Verificado: JS (`node --check`), balance de llaves CSS (340/340), etiquetas HTML balanceadas.
+
 ### 2026-09-07 — v0.1 · Versión inicial (exposición)
 - Creación del sitio completo: `index.html`, `assets/css/main.css`, `assets/js/main.js`.
 - Ilustración principal `assets/img/hero.svg`.

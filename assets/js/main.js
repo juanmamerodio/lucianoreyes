@@ -94,17 +94,22 @@
   });
   if (filters.length) filters[0].dataset.active = "1";
 
-  const closeMenu = () => {
-    mobilemenu && (mobilemenu.dataset.open = "0");
-    burger && (burger.setAttribute("aria-expanded", "false"));
+  const setMenu = (open) => {
+    mobilemenu && (mobilemenu.dataset.open = open ? "1" : "0");
+    burger && burger.setAttribute("aria-expanded", String(open));
+    body.style.overflow = open ? "hidden" : "";
   };
+  const closeMenu = () => setMenu(false);
   if (burger) {
     burger.addEventListener("click", () => {
-      const isOpen = mobilemenu.dataset.open === "1";
-      mobilemenu.dataset.open = isOpen ? "0" : "1";
-      burger.setAttribute("aria-expanded", String(!isOpen));
+      mobilemenu.dataset.open === "1" ? closeMenu() : setMenu(true);
     });
   }
+  const menuCloseBtn = $("#menuclose");
+  if (menuCloseBtn) menuCloseBtn.addEventListener("click", closeMenu);
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeMenu();
+  });
   $$("[data-scroll]").forEach((a) => {
     a.addEventListener("click", () => {
       closeMenu();
